@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora de Média </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+                <h1 class="page-title">
+                    Calculadora de média </h1>
+                <p class="page-subtitle">
+                    Calcule qual a sua média de notas e saiba se foi aprovado ou reprovado!
+                </p>
+            <form action="#" method='POST'>
+                <div class='form-group'>
+                    <label for="nota1">Nota 1º Bimestre</label>
+                    <input type="number" name="nota1" id="nota1" min='0.0' max='10.0' step="0.1" autofocus required
+                    onBlur='validarNumero(this)'/>
+                </div>
+
+                <div class='form-group'>
+                    <label for="nota2">Nota 2º Bimestre</label>
+                    <input type="number" name="nota2" id="nota2" min='0.0' max='10.0' step="0.1" required
+                    onBlur='validarNumero(this)'/>
+                </div>
+
+                <div class='form-group'>
+                    <label for="nota3">Nota 3º Bimestre</label>
+                    <input type="number" name="nota3" id="nota3" min='0.0' max='10.0' step="0.1" required
+                    onBlur='validarNumero(this)'/>
+                </div>
+
+                <div class='form-group'>
+                    <label for="nota4">Nota 4º Bimestre</label>
+                    <input type="number" name="nota4" id="nota4" min='0.0' max='10.0' step="0.1" required
+                    onBlur='validarNumero(this)'/>
+                </div>
+
+                <div class='form-group'>
+                    <button class='botao' id='btnCalcular' type="submit">Calcular</button>
+                    <button type='reset' id='btnLimpar'>Limpar</button>
+                </div>
+
+                <div class='form-group'>
+                    <label for="media">Média <br> </label>
+                    <input type="number" name="media" id="media" value='' readonly />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="situacao" class="cx" id="situacao" placeholder='Situação Final' readonly />
+                </div>
+            </form>
+            </section>
+            </main>
+            <script src='script.js'></script>
+</body>
+</html>

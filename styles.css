@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', sans-serif;
+    
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/c5/dc/5a/c5dc5a7d091fc35ba2265039b4b0ba6e.jpg);
+    background-color: white;
+    background-size: 285vh;
+    padding-right: 60px;
+    padding-top: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.page-title{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.page-subtitle{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.form-group{
+    text-align: center;
+    padding-left: 100px;
+    color: white;
+}
+/* FORMULARIO */
+form {
+    margin: 1rem;
+}
+
+/* DIV DOS INPUTS */
+.form-group {
+    margin: 0.625rem;
+    padding-right: 10px;
+}
+
+/* INPUTS */
+input[type=number], input[type=text] {
+    padding: 7px;
+    text-align: center;
+}
+
+.cx, input[type=text] {
+    border: 1px solid white;
+    width: 170px;
+    padding: 10px 40px;
+}
+
+/* BOTOES */
+.form-group button {
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#btnCalcular {
+    background-image: linear-gradient(to right,#636ee7, #1a237e);
+    padding: 10px;
+}
+
+#btnLimpar {
+    background-image: linear-gradient(to right, rgb(243, 182, 69), rgb(253, 114, 0));
+    padding: 10px;
+}
+/* CLASS PARA FORMATAR COM JS */
+.aprovado {
+    background-image: linear-gradient(to right, lightgreen, darkgreen);
+}
+
+.reprovado {
+    background-image: linear-gradient(to right, rgb(201, 104, 104), red);
+}
