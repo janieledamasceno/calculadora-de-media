@@ -89,3 +89,8 @@ input[type=number], input[type=text] {
 .reprovado {
     background-image: linear-gradient(to right, rgb(201, 104, 104), red);
 }
+footer{
+    font-size: 16px;
+    text-align: center;
+    color:#fff
+}
